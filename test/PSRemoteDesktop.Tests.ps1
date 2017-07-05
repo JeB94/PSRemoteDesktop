@@ -1,5 +1,6 @@
 $ModuleManifestName = 'PSRemoteDesktop.psd1'
-$ModuleManifestPath = "$PSScriptRoot\..\$ModuleManifestName"
+$ModulePath = "$PSScriptRoot\..\PSRemoteDesktop"
+$ModuleManifestPath = Join-Path $ModulePath $ModuleManifestName
 
 Describe 'Module Manifest Tests' {
     It 'Passes Test-ModuleManifest' {
@@ -7,4 +8,3 @@ Describe 'Module Manifest Tests' {
         $? | Should Be $true
     }
 }
-

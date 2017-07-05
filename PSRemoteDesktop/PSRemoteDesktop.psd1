@@ -30,7 +30,7 @@ CompanyName = 'Desconocido'
 Copyright = '(c) 2017 Jeb94. Todos los derechos reservados.'
 
 # Descripción de la funcionalidad proporcionada por este módulo.
-# Description = ''
+Description = 'Remote Desktop module. It contains functions to manage remote desktop.'
 
 # Versión mínima del motor de Windows PowerShell requerida por este módulo.
 # PowerShellVersion = ''

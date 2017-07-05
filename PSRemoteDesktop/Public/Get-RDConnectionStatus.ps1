@@ -1,16 +1,4 @@
 function Get-RDConnectionStatus {
-    <#
-    .SYNOPSIS
-
-    .DESCRIPTION
-
-    .PARAMETER alguno
-
-    .EXAMPLE
-
-    .NOTES
-
-#>
     #Requires -RunAs
     [CmdletBinding()]
     param (

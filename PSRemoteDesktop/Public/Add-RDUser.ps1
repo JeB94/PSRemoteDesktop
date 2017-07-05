@@ -1,17 +1,4 @@
 function Add-RDUser {
-    <#
-    .SYNOPSIS
-
-    .DESCRIPTION
-
-    .PARAMETER alguno
-
-    .EXAMPLE
-
-    .NOTES
-
-#>
-
     #Requires -RunAs
     [CmdletBinding()]
     param (
